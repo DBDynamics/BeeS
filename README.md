@@ -5,7 +5,7 @@ DBD is a startup manufacturer of innovative matrix motion technologies, and as a
 ## About BeeS
 BeeS是DBD团队开发的总线式一体闭环步进伺服电机,目前主要分为BeeS28、BeeS42、BeeS57三个尺寸型号. 采用双电源接口,双RS485隔离通信接口以及正负限位接口.此外还集成了编码器,支持位置模式、速度模式、回零模式(有感/无感)、插补模式等多种运行模式. 
 ## Contact Us
-- Wechat: DB-Dynamics
+![](images/wechat.jpg)
 
 ## 产品细节(图片)
 
