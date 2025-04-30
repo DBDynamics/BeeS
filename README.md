@@ -1,27 +1,38 @@
-- [简介](#简介)
-- [资源](#资源特性)
-- [细节](#产品细节)
-- [尺寸](#机械尺寸)
-- [布局](#接口布局)
-- [传感器](#无对应锚点，需确认是否需要删除或调整)
-- [模式](#运行模式)
-- [开发](#开发者)
-- [视频](#相关视频)
+# DBD-BeeS
 
-## Bee-S
+## About DBD
+DBD is a startup manufacturer of innovative matrix motion technologies, and as a manufacturer and developer of motor drives, controllers, and systems, DBD is designing its technology with emphasis on performance, efficiency, reliability, safety and simplicity.
+## About BeeS
+BeeS是DBD团队开发的总线式一体闭环步进伺服电机,目前主要分为BeeS28、BeeS42、BeeS57三个尺寸型号. 采用双电源接口,双RS485隔离通信接口以及正负限位接口.此外还集成了编码器,支持位置模式、速度模式、回零模式(有感/无感)、插补模式等多种运行模式. 
+## Contact Us
+- Wechat: DB-Dynamics
 
-### 简介
+## 产品细节(图片)
 
----
+### BeeS4223-V1 
 
-- BeeS系列电机包括28 42 57三个型号
-- 体积做到了极致的紧凑
-- 接口保留了双电源供电，双485通信以及正负限位
+![](images/bees4223_0.png)
+![](images/bees4223_1.png)
+![](images/bees4223_2.png)
+![](images/bees4223_3.png)
 
----
+### BeeS4223-V2
 
-### 资源特性
+### BeeS57
 
+![](images/bees5756_0.png)
+![](images/bees5756_1.png)
+![](images/bees5756_2.png)
+
+### BeeS28
+
+![](images/bees28_1.png)
+![](images/bees28_2.png)
+
+## 产品介绍(视频)
+
+## 产品介绍(文字)
+### 性能参数
 ---
 
 |  |  |
@@ -307,17 +318,3 @@ else
 
 ### 相关视频
 
----
-
-
-
-## About DBD
-
-DBD is a startup manufacturer of innovative matrix motion technologies, and as a manufacturer and
-developer
-of motor drives, controllers, and systems, DBD is designing its technology with emphasis on
-performance,
-efficiency, reliability, safety and simplicity.
-
-
-© DB Dynamics
