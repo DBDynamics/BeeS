@@ -4,13 +4,61 @@
 DBD is a startup manufacturer of innovative matrix motion technologies, and as a manufacturer and developer of motor drives, controllers, and systems, DBD is designing its technology with emphasis on performance, efficiency, reliability, safety and simplicity.
 ## About BeeS
 BeeS是DBD团队开发的总线式一体闭环步进伺服电机,目前主要分为BeeS28、BeeS42、BeeS57三个尺寸型号. 采用双电源接口,双RS485隔离通信接口以及正负限位接口.此外还集成了编码器,支持位置模式、速度模式、回零模式(有感/无感)、插补模式等多种运行模式. 
-## Contact Us
+## Technical Support
+If any questions, please feel free to contact us:
+如果有任何问题, 请联系我们:
 ![](images/wechat.jpg)
 
-## 产品细节(图片)
 
+## 目录 
+- [产品介绍](#产品介绍)
+  - [性能参数](#性能参数)
+  - [产品细节](#产品细节)
+  - [机械尺寸](#机械尺寸)
+- [玩法介绍](#玩法介绍)
+  - [回零模式](#运行模式)
+  - [位置模式](#位置模式)
+  - [速度模式](#速度模式)
+  - [插补模式](#插补模式)  
+- [开发者](#开发者)
+    - [快速上手](#快速上手)
+      - [树莓派](#树莓派)
+      - [Windows](#windows-pc)
+      - [Linux](#linux-pc)
+      - [Mac OS](#mac-os)
+  - [高级玩法](#环境搭建)
+    - [USB485-Max](#pyv3s控制器)
+    - [PyV3s控制器](#pyv3s控制器)
+    - [PyH6Pro控制器](#pyh6s控制器)
+- [应用案例](#应用案例)
+  - [矩阵开发套件](#矩阵开发套件)
+  - [矩阵升降球](#矩阵升降球)
+  - [矩阵伸缩杆](#矩阵伸缩杆)
+  - [机械臂](#机械臂)
+  - [同步轮自由机](#同步轮自由机)
+- 
+## 产品介绍
+- [性能参数](#性能参数)
+- [产品细节](#产品细节)
+- [机械尺寸](#机械尺寸)
+
+### 性能参数
+---
+
+|  | S28 | S42| S57|
+| --- | --- | --- | --- |
+| 重量 | 40g |
+| 细分 | 256 |
+| 编码器分辨率 | 12bit |
+| 工作电压 | DC12V/24V |
+| 最大持续输出电流 | 0.5A | 1.0A | 1.5A |
+| 限位 | 正负 |正负 |正负 |
+| RS485总线 | 250Kbps | 250Kbps | 250Kbps |
+| 运行温度 | -10 to +60°C |
+
+
+## 产品细节
 ### BeeS4223-V1 
-
 ![](images/bees4223_0.png)
 ![](images/bees4223_1.png)
 ![](images/bees4223_2.png)
@@ -32,21 +80,6 @@ BeeS是DBD团队开发的总线式一体闭环步进伺服电机,目前主要分
 ## 产品介绍(视频)
 
 ## 产品介绍(文字)
-### 性能参数
----
-
-|  |  |
-| --- | --- |
-| 重量 | 40g |
-| 电机 | 4线2相步进电机 |
-| 细分 | 256 |
-| 编码器分辨率 | 12bit |
-| 工作电压 | DC12V/24V |
-| 最大持续输出电流 | 1.0A |
-| PWM频率 | 20KHz |
-| 输入IO | 无 |
-| RS485总线 | 最高10Mbps,默认500Kbps |
-| 运行温度 | -10 to +60摄氏度 |
 
 ---
 
