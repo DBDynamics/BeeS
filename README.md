@@ -1,14 +1,7 @@
-# DBD-BeeS
-
-## About DBD
-DBD is a startup manufacturer of innovative matrix motion technologies, and as a manufacturer and developer of motor drives, controllers, and systems, DBD is designing its technology with emphasis on performance, efficiency, reliability, safety and simplicity.
+# BeeS
+⭐ 欢迎使用BeeS系列电机 - DBD团队最新研发的高性能闭环一体步进电机解决方案
 ## About BeeS
 BeeS是DBD团队开发的总线式一体闭环步进伺服电机,目前主要分为BeeS28、BeeS42、BeeS57三个尺寸型号. 采用双电源接口,双RS485隔离通信接口以及正负限位接口.此外还集成了编码器,支持位置模式、速度模式、回零模式(有感/无感)、插补模式等多种运行模式. 
-## Technical Support
-If any questions, please feel free to contact us:
-如果有任何问题, 请联系我们:
-![](images/wechat.jpg)
-
 
 ## 目录 
 - [产品介绍](#产品介绍)
@@ -36,7 +29,11 @@ If any questions, please feel free to contact us:
   - [矩阵伸缩杆](#矩阵伸缩杆)
   - [机械臂](#机械臂)
   - [同步轮自由机](#同步轮自由机)
-- 
+
+- [About DBD](#about-dbd)
+- [Contact Us](#contact-us)
+
+
 ## 产品介绍
 - [性能参数](#性能参数)
 - [产品细节](#产品细节)
@@ -65,15 +62,15 @@ If any questions, please feel free to contact us:
 ![](images/bees4223_3.png)
 
 ### BeeS4223-V2
+图片马上来
 
 ### BeeS57
-
 ![](images/bees5756_0.png)
 ![](images/bees5756_1.png)
 ![](images/bees5756_2.png)
 
 ### BeeS28
-
+图片马上来
 ![](images/bees28_1.png)
 ![](images/bees28_2.png)
 
@@ -108,9 +105,7 @@ If any questions, please feel free to contact us:
 ---
 
 ### 运行模式
-
 ---
-
 |  |  |
 | --- | --- |
 | 位置模式 | 位置模式,全称平滑位置模式.通常称为点位运动.根据设定的目标位置,目标速度以及加速时间 自行规划位置时间曲线并开始运动.  位置模式常用API及参数：    速度－时间曲线：    API使用流程示意图： |
@@ -131,16 +126,13 @@ If any questions, please feel free to contact us:
 
 [![](images/tun_logo_white.png)](downloads/BeeS-Tuner.zip)
 
-
 ---
 
 #### 通信协议
-
- [点击下载](downloads/BeeS.xls)
+[点击下载](downloads/BeeS.xls)
 
 
 ---
-
 #### Python SDK
 
 [![](images/python_icon.png)](downloads/BeeS-SDK.zip)
@@ -251,14 +243,6 @@ BeeS42采用RS485总线接口进行通讯, 通信速率默认250kbps.
 0x1B - 编码器绝对值  
 0x1C - 功率限制系数  
 
-
-
-
-
-
-
-
-
 0x28 - 紧急停止的减速度系数  
   
 主ID:  
@@ -271,17 +255,9 @@ BeeS42采用RS485总线接口进行通讯, 通信速率默认250kbps.
 数据类型:int整数(32位)  
 低位在前,例如10进制数据:100 表示为 0x64 0x00 0x00 0x00  
   
-
 ##### 控制字ControlWord参数说明
 
 BIT0(0x01) 1-On/0-Off(电机使能)  
-
-
-
-
-
-
-  
 
 ##### 状态字StatusWord参数说明
 
@@ -345,9 +321,19 @@ else
 3.失能ID=1的设备:  
 0x01 0x02 0x01 0x00 0x00 0x00 0x00 0x00  
   
-
-
 ---
 
 ### 相关视频
+- [写一段代码 让电机运行起来](https://www.bilibili.com/video/BV12eH5eaEeC?vd_source=bd72913d34487300e80485725261daec)
+- [如何连接两台电机](https://www.bilibili.com/video/BV1q1HgeBEcH?vd_source=bd72913d34487300e80485725261daec)
+- [修改一下代码 让两个电机跑起来](https://www.bilibili.com/video/BV12YH5eAE2V?vd_source=bd72913d34487300e80485725261daec)
 
+
+## About DBD
+DBD is a startup manufacturer of innovative matrix motion technologies, and as a manufacturer and developer of motor drives, controllers, and systems, DBD is designing its technology with emphasis on performance, efficiency, reliability, safety and simplicity.
+
+
+## Technical Support
+- If any questions, please feel free to contact us:
+- 如果有任何问题, 请联系我们:
+![](images/wechat.jpg)
